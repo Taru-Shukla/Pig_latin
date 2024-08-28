@@ -12,7 +12,7 @@
     "cors": "^2.8.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
@@ -22,10 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +44,8 @@
     "@babel/helper-compilation-targets": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "tapable": "^2.2.1",
-    "webpack": "^4.44.2",
+    "watchpack": "^2.4.2",
+    "webpack": "^4.47.0",
     "webpack-sources": "^3.2.3"
   }
 }
