@@ -8,10 +8,11 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "browserslist": "^4.23.3",
     "cors": "^2.8.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
