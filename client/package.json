@@ -43,10 +43,6 @@
   "devDependencies": {
     "@babel/helper-compilation-targets": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
-    "tapable": "^2.2.1",
-    "watchpack": "^2.4.2",
-    "webpack": "^5.94.0",
-    "webpack-manifest-plugin": "^5.0.0",
     "webpack-sources": "^3.2.3"
   }
 }
