@@ -1,48 +1,36 @@
 {
   "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "proxy": "http://127.0.0.1:5000",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.26.1",
-    "browserslist": "^4.23.3",
-    "cors": "^2.8.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.77.8",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "start-api": "cd client && venv/bin/flask run --no-debugger",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taru-Shukla/Pig_latin.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Taru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taru-Shukla/Pig_latin/issues"
+  },
+  "homepage": "https://github.com/Taru-Shukla/Pig_latin#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-sources": "^3.2.3"
   },
   "devDependencies": {
-    "@babel/helper-compilation-targets": "^7.25.2",
+    "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
-    "webpack-sources": "^3.2.3"
+    "babel-loader": "^9.1.3",
+    "browserslist": "^4.23.3",
+    "eslint": "^9.9.1"
   }
 }
